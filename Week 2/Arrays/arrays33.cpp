@@ -1,0 +1,1 @@
+//convert [a1b2c3d4] to [abcd1234]
