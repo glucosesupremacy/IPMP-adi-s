@@ -11,8 +11,8 @@ int partition(int arr[], int l, int r){
     int pivot = arr[r];
     int i = l-1;
     for(int j = l; j < r; j++){
-        if(arr[j] < pivot){
-            i++;
+        if(arr[j] < pivot){//i will stop before a greater element
+            i++;//i will increment and be at a greater element, and then swap will take place
             swap(arr[i], arr[j]);
         }
     }

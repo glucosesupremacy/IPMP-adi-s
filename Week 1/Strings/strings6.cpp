@@ -1,0 +1,1 @@
+//move even positioned chars to the end
